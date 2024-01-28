@@ -10,4 +10,5 @@ import { RouterOutlet } from '@angular/router';
 })
 export class AppComponent {
   title = 'appx-ssr';
+  currentYear: number = new Date().getFullYear()
 }
